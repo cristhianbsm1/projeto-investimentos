@@ -1,0 +1,35 @@
+empresa,contrato,projeto,estado,vencimento,status,proxima_rtp,rap_milhoes,participacao
+ISA ENERGIA BRASIL,059/2001,Concessao Paulista,SP,2042,Operational,2028,3546.9,100
+ISA ENERGIA BRASIL,008/2022,Piraque,MG/ES,2052,Operational,2028,343.1,100
+ISA ENERGIA BRASIL,012/2016,PBTE,SP,2046,Operational,2027,234.8,100
+ISA ENERGIA BRASIL,006/2023,Serra Dourada,BA/MG,2053,Under Construction,2029,321.8,100
+ISA ENERGIA BRASIL,012/2023,Itatiaia,RJ/MG,2053,Under Construction,2029,248.2,100
+IE Aguapei,046/2017,Aguapei,SP,2047,Operational,2028,83.2,100
+IE Riacho Grande,005/2021,Riacho Grande,SP,2051,Operational,2025,93.1,100
+Evrecy,001/2020,Minuano,RS,2050,Operational,2025,53.0,100
+IEMG,007/2020,Triangulo Mineiro,MG,2050,Operational,2025,46.1,100
+IEMG,004/2007,IEMG,MG,2037,Operational,,15.4,100
+IE Itaunas,018/2017,Itaunas,ES,2047,Operational,2027,72.1,100
+IE Itaquere,027/2017,Itaquere,SP,2047,Operational,2028,70.8,100
+IENNE,001/2008,IENNE,PI/TO/MA,2038,Operational,2028,71.4,100
+IE Serra do Japi,026/2009,Serra do Japi,SP,2039,Operational,2025,62.4,100
+IE Jaguar 9,015/2008,"Getulina, Mirassol e Araras",SP,2038,Operational,,77.3,100
+IE Biguacu,012/2018,Biguacu,SC,2048,Operational,2029,56.3,100
+IE Jaguar 6,143/2001,Botucatu-Xavantes,SP,2031,Operational,,20.6,100
+IE Jaguar 6,042/2017,Bauru,SP,2047,Operational,2028,16.2,100
+IE Jaguar 8,011/2022,Jacaranda,SP,2052,Operational,2028,16.1,100
+IE Jaguar 8,012/2008,Piratininga,SP,2038,Operational,,16.0,100
+IE Tibagi,026/2017,Tibagi,SP,2047,Operational,2028,23.7,100
+IE Tibagi,006/2020,Tres Lagoas,MS/SP,2050,Operational,2025,7.5,100
+IE Tibagi,014/2023,Agua Vermelha,MG,2053,Operational,2029,8.5,100
+IESUL,016/2008,Forquilinha,SC,2038,Operational,,20.4,100
+IESUL,013/2008,Scharlau,RS,2038,Operational,,8.8,100
+IE Itapura,021/2018,Lorena,SP,2048,Operational,2029,18.3,100
+IE Itapura,021/2011,Itapeti,SP,2041,Operational,2027,9.2,100
+IE Pinheiros,018/2008,Atibaia II,SP,2038,Operational,,8.6,100
+IE Madeira,013/2009,Lote D,RO/SP/MT/MS/GO,2039,Operational,,208.3,51
+IE Madeira,015/2009,Lote F,RO/SP/MT/MS/GO,2039,Operational,,179.7,51
+IE Ivai,022/2017,Ivai,PR,2047,Operational,2028,199.4,50
+IE Aimores,004/2017,Aimores,MG,2047,Operational,2027,54.4,50
+IE Garanhuns,022/2011,Garanhuns,PE/AL/PB,2041,Operational,2027,80.5,51
+IE Paraguacu,003/2017,Paraguacu,BA/MG,2047,Operational,2027,81.2,50
