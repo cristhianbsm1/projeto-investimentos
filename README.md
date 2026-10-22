@@ -28,18 +28,18 @@ Atualmente, o projeto possui análises específicas para os setores bancário, e
 
 # Estrutura do projeto
 
-
+```text
 projeto_investimentos_v1/
-    main.py                 >       Arquivo principal responsável por iniciar a aplicação.
-    api.py                  >       Organiza e disponibiliza os dados para a aplicação
-    analysis.py             >       Realiza os cálculos e a análise dos indicadores fundamentalistas.
-    utilidades.py           >       Funções auxiliares utilizadas pelo projeto. 
-
+    main.py                     >       Arquivo principal responsável por iniciar a aplicação.
+    api.py                      >       Organiza e disponibiliza os dados para a aplicação
+    analysis.py                 >       Realiza os cálculos e a análise dos indicadores fundamentalistas.
+    utilidades.py               >       Funções auxiliares utilizadas pelo projeto.
+    
     dados/
-        data.py             >       Responsável pela obtenção e organização dos dados financeiros.
+        data.py                 >       Responsável pela obtenção e organização dos dados financeiros.
 
     interface/
-        menu.py             >       Contém a interface de interação com o usuário.
+        menu.py                 >       Contém a interface de interação com o usuário.
 
     bancos/
         dados_bancos.csv        >       Dados complementares utilizados na análise de bancos.
@@ -47,7 +47,8 @@ projeto_investimentos_v1/
     concessoes/
         taesa.csv               >       Dados das concessões da Taesa.
         isa.csv                 >       Dados das concessões da ISA Energia.
-        teste/
+
+    teste/
         teste.py                >       Contém os testes automatizados do projeto.
         teste_calculos.py       >       Testes dos cálculos e operações.    
         teste_estrutura.py      >       Testes da estrutura e funcionamento básico dos módulos.
@@ -55,7 +56,7 @@ projeto_investimentos_v1/
     requirements.txt            >       Lista as bibliotecas utilizadas no projeto.
     .gitignore                  >       Define arquivos e pastas que não devem ser enviados ao Git.
     README.md                   >       Documentação do projeto.
-
+```
 Na V1, a análise bancária está disponível para Itaú, Banco do Brasil e Bradesco. A análise de empresas elétricas está disponível para Taesa e ISA Energia, devido à utilização de dados complementares armazenados em arquivos CSV.
 
 # Como executar
@@ -87,14 +88,20 @@ python -m teste.teste_estrutura
 A aplicação funciona através do terminal. O usuário interage com a interface de menu para selecionar o tipo de análise e, em seguida, informa o código da empresa que deseja analisar.
 
 Exemplo:
-python main.py
-[a]     Análise básica
-[as]    Análise por setor
-[s]     Sair
-=> 
-a
-Digite o código da ação:BBAS3
-Análise atual   Banco do Brasil S.A.: 
+```text
+=> python main.py
+
+[a] Análise básica
+[as] Análise por setor
+[s] Sair
+
+=> a
+
+Digite o código da ação:
+
+=> BBAS3
+
+Análise atual   Banco do Brasil S.A.:            
                 Setor:  Banks - Regional  
                 Preço:  R$18.43
                 Máxima 52 semanas:      R$27.81 
@@ -109,3 +116,4 @@ Análise atual   Banco do Brasil S.A.:
 [a]     Análise básica
 [as]    Análise por setor
 [s]     Sair
+```
